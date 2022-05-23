@@ -1,0 +1,17 @@
+version: 1
+
+dn: dc=moresec,dc=cn
+objectClass: dcObject
+objectClass: organization
+objectClass: top
+dc: moresec
+o: moresec
+
+dn: userPassword=root,dc=moresec,dc=cn
+objectClass: account
+objectClass: simpleSecurityObject
+objectClass: top
+uid: 1
+userPassword:: cm9vdA==
+ou: administrator
+
